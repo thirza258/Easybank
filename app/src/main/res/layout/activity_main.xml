@@ -65,7 +65,336 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:layout_below="@id/intro"
+                android:text="@string/next"
+                android:gravity="center"
+                android:textSize="32sp"
+                android:fontFamily="@font/publicsans"
+                android:layout_marginTop="50dp"
+                android:id="@+id/next"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/next"
+                android:text="@string/take"
+                android:textSize="16sp"
+                android:layout_margin="30dp"
+                android:id="@+id/take"
+                android:gravity="center"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_below="@id/take"
+                android:layout_centerHorizontal="true"
+                android:text="Request Invite"
+                android:onClick="request"
+                android:id="@+id/request"
+                android:textAllCaps="false"
+                android:fontFamily="@font/publicsans"
+                android:textStyle="bold"
+                android:background="@drawable/button"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/request"
+                android:layout_marginTop="156dp"
+                android:text="@string/why"
+                android:gravity="center"
+                android:fontFamily="@font/publicsans"
+                android:textSize="36sp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="56dp"
+                android:textStyle="bold"
+                android:id="@+id/why"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/why"
+                android:text="@string/we"
+                android:id="@+id/we"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="35dp"
+                android:textSize="16sp"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@id/we"
+                android:id="@+id/linear">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_online"
+                        android:layout_marginTop="58dp"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/online"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Online Banking"
+                        android:id="@+id/banking"
+                        android:layout_margin="32dp"
+                        android:gravity="center"
+                        android:layout_below="@id/online"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/our"
+                        android:layout_below="@id/banking"
+                        android:id="@+id/our"
+                        android:textSize="16sp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="32dp"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_online"
+                        android:layout_marginTop="58dp"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/online"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Online Banking"
+                        android:id="@+id/banking"
+                        android:layout_margin="32dp"
+                        android:gravity="center"
+                        android:layout_below="@id/online"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/our"
+                        android:layout_below="@id/banking"
+                        android:id="@+id/our"
+                        android:textSize="16sp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="32dp"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_online"
+                        android:layout_marginTop="58dp"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/online"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Online Banking"
+                        android:id="@+id/banking"
+                        android:layout_margin="32dp"
+                        android:gravity="center"
+                        android:layout_below="@id/online"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/our"
+                        android:layout_below="@id/banking"
+                        android:id="@+id/our"
+                        android:textSize="16sp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="32dp"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_online"
+                        android:layout_marginTop="58dp"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/online"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Online Banking"
+                        android:id="@+id/banking"
+                        android:layout_margin="32dp"
+                        android:gravity="center"
+                        android:layout_below="@id/online"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/our"
+                        android:layout_below="@id/banking"
+                        android:id="@+id/our"
+                        android:textSize="16sp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="32dp"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center" />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Latest Article"
+                android:layout_marginTop="188dp"
+                android:layout_below="@id/linear"
+                android:id="@+id/article"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:fontFamily="@font/publicsans"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/article"
+                android:id="@+id/recycleView"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/recycleView"
+                android:background="@color/dark_blue">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/logo"
+                    android:id="@+id/logo2"
+                    android:layout_marginTop="40dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/logo2"
+                    android:orientation="horizontal"
+                    android:id="@+id/linear2"
+                    android:layout_marginTop="40dp">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_facebook"
+                        android:background="@drawable/icon_facebook"
+                        android:id="@+id/facebook"
+                        android:layout_marginEnd="14dp"
+                        />
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_facebook"
+                        android:background="@drawable/icon_facebook"
+                        android:id="@+id/facebook"
+                        android:layout_marginEnd="14dp"
+                        />
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_facebook"
+                        android:background="@drawable/icon_facebook"
+                        android:id="@+id/facebook"
+                        android:layout_marginEnd="14dp"
+                        />
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_facebook"
+                        android:background="@drawable/icon_facebook"
+                        android:id="@+id/facebook"
+                        android:layout_marginEnd="14dp"
+                        />
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_facebook"
+                        android:background="@drawable/icon_facebook"
+                        android:id="@+id/facebook"
+                        android:layout_marginEnd="14dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_below="@id/linear2"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/linear3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="About Us"
+                        android:id="@+id/about"/>
+
+
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Request Invite"
+                    android:background="@drawable/button"
+                    android:layout_below="@id/linear3"
+                    android:layout_marginTop="40dp"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/invite"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Easybank. All Rights Reserved"
+                    android:layout_below="@id/invite"
+                    android:layout_marginTop="40dp"/>
+
+
+
+            </RelativeLayout>
 
         </RelativeLayout>
 
