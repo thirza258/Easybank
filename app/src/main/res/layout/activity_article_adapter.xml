@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".articleAdapter"
+    android:layout_margin="22dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="20dp"
+    android:id="@+id/Articleparent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@color/dark_blue"
+            android:id="@+id/articleImage"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/next"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="40dp"
+            android:layout_below="@+id/articleImage"
+            android:id="@+id/articleAuthor"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/next"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:layout_below="@+id/articleAuthor"
+            android:textSize="24sp"
+            android:fontFamily="@font/publicsans"
+            android:textFontWeight="900"
+            android:id="@+id/articleHead"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/our"
+            android:layout_below="@id/articleHead"
+            android:layout_marginStart="40dp"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="40dp"
+            android:id="@+id/articleDesc"
+            />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

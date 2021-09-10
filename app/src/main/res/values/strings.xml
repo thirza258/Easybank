@@ -22,4 +22,22 @@
 
     <string name="manage">Manage your savings, investements, pension
     and much more from one account. Tracking your money has never been easier</string>
+
+    <string name="receive">Receive money in any currency with no fees</string>
+    <string name="smaller">The world is getting smaller and we\'re becoming more mobile. So why
+    should you be forced to only receive money in a single</string>
+
+    <string name="treat">Treat yourself without worrying about money</string>
+    <string name="simple">Our simple budgetting feature allows you to seperate our your spending
+    and set realistic limits each month. That means you…</string>
+
+    <string name="plane">Take your Easybank card wherever you go</string>
+    <string name="want">We want you to enjoy your travels. This is why we don\'t charge
+    any fees on purchases while you\'re abroad. We\'ll even show you…</string>
+
+    <string name="invite">Our invite-only Beta accounts are now live!</string>
+    <string name="after">After a lot of hard work by the whole team. we\'re
+    excited to launch our closed bete. It\'s easy to request an invite through the site…</string>
+
+
 </resources>
